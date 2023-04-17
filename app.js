@@ -1,4 +1,4 @@
-function displayTime() {
+const displayTime = () => {
     const dateTime = new Date();
     let hrs = dateTime.getHours();
     const min = dateTime.getMinutes();
